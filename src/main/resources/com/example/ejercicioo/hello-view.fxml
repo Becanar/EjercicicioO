@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
@@ -17,7 +18,11 @@
     <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
   </rowConstraints>
    <children>
-      <ImageView fx:id="img" fitHeight="143.0" fitWidth="243.0" pickOnBounds="true" preserveRatio="true"></ImageView>
+      <ImageView fx:id="img" fitHeight="143.0" fitWidth="243.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/trigo.png" />
+         </image>
+      </ImageView>
       <Label fx:id="lblProducto" alignment="CENTER_RIGHT" prefHeight="82.0" prefWidth="144.0" text="TRIGO" GridPane.columnIndex="1">
          <font>
             <Font size="37.0" />
